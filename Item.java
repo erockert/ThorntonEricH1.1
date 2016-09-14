@@ -10,25 +10,31 @@ public class Item
 
        //method that returns weight
 public String getWeight(){
-return weight;
+	return weight;
 }
        //method that returns name
 public String getName(){
-return name;
+	return name;
 }
 
-       //new class for weapon
-public class Weapon extends Item
+//I forgot to put my constructor class in but it is here now!
+public Item(String nName, int nWeight)
 {
 
 
-
-
 }
-
+ }
+	//new class for weapon
+public class Weapon extends Item
+{
+	//variable for damage
+	private int damage;
+ 
+}
+	//My main method!
 	public static void main(String[] args)
      {
 
 
      }
-  }
+  
