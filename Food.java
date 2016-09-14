@@ -1,5 +1,5 @@
 //New class for nutrition
-public class Food()
+public class Food extends Item
 {
 //Setting the variables for my food class
 private static int nutrition;
@@ -10,4 +10,10 @@ public int getNutrition()
 {
 return nutrition;
 }
+//making get method thta returns Quantity
+public int getQuantity()
+{ 
+return quantity;
+}
+
 }
