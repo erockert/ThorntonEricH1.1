@@ -36,6 +36,11 @@ public String getDamage()
 {
 return damage;
 }
+//This is my constructor for my weapon class
+public Weapon(int nDamage)
+{
+damage = nDamage;
+}
  
 }
 	//My main method!
