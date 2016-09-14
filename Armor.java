@@ -14,5 +14,13 @@ public Armor()
  {
 super("Iron Chestplate", 15);
  }
+//main method for armor!
+public static void main(String[] args)
+{
+Armor arm = new Armor();
+arm.examine();
+
+}
+
 }
 
