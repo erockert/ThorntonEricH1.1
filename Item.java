@@ -20,15 +20,22 @@ public String getName(){
 //I forgot to put my constructor class in but it is here now!
 public Item(String nName, int nWeight)
 {
-
-
+name = nName
+weight = nWeight;
 }
+
  }
 	//new class for weapon
 public class Weapon extends Item
 {
 	//variable for damage
 	private int damage;
+
+	//method that returns damage
+public String getDamage()
+{
+return damage;
+}
  
 }
 	//My main method!
