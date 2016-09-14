@@ -5,8 +5,9 @@ public class Food()
 private static int nutrition;
 private static int quantity;
 
-
-
-
-
+//making get method that returns Nutrition
+public int getNutrition()
+{
+return nutrition;
+}
 }
