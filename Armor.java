@@ -9,6 +9,10 @@ public int getDefense()
 {
 return defense;
 }
-
+//This is my constructor for my armor class
+public Armor()
+ {
+super("Iron Chestplate", 15);
+ }
 }
 
