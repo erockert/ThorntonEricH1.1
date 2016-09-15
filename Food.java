@@ -20,6 +20,12 @@ public in setQuantity(int newQuantity)
 {
 quantity = newQuantity
 }
+//My constructor for my food class
+public Food()
+{
+
+}
+
 //My main method for my food class!
 public static void main(String[] args)
 {
