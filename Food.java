@@ -15,5 +15,9 @@ public int getQuantity()
 { 
 return quantity;
 }
+//Making a method that sets the new value of the Quantity
+public in setQuantity()
+{
 
+}
 }
