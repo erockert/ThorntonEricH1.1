@@ -16,19 +16,20 @@ public int getQuantity()
 return quantity;
 }
 //Making a method that sets the new value of the Quantity
-public in setQuantity(int newQuantity)
+public void setQuantity(int newQuantity)
 {
-quantity = newQuantity
+quantity = newQuantity;
 }
 //My constructor for my food class
 public Food()
 {
-
+super("loaf of bread",1);
 }
 
 //My main method for my food class!
 public static void main(String[] args)
 {
 Food bread = new Food();
+bread.examine();
 }
 }
